@@ -1,0 +1,40 @@
+body{
+    background-color: #D7F5D3;
+    font-family: Arial, Helvetica, Sans Serif;
+    color: green;
+    text-align: center;
+}
+
+hr{
+    width: 500px;
+    height: 5px;
+    background-color: lightgreen;
+    border: 0;
+}
+
+#game-board{
+    width: 450px;
+    height:450px;
+    margin: 0 auto;
+    background-color: #B3E5B3;
+    color: green;
+    border: 6px solid lightgreen;
+    border-radius: 10px;
+
+    display: grid;
+    grid-template: repeat(3,1fr)/repeat(3,1fr);
+}
+
+.game-cell{
+    /*width: 150px;
+    height: 150px;*/
+    /*margin*/
+    /*background-color: forestgreen;*/
+    border: 3px solid lightgreen;
+    border-radius:3px;
+    font-size: 100px;
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
